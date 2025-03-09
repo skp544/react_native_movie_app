@@ -51,16 +51,3 @@ export const fetchMovieDetails = async (
     throw error;
   }
 };
-
-// const options = {
-//   method: 'GET',
-//   headers: {
-//     accept: 'application/json',
-//     Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlNmFiODJiM2JhNmM0N2ZmOGIwYmU5ODk2NmU1ZmQ3OCIsIm5iZiI6MTc0MTQ1NzgwNC4yMTEsInN1YiI6IjY3Y2M4OThjMDVhZGZiOWViOTViYzBiMCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.7Z09OFR5km_KeecEn6lWoBbzx8-PTpKCT4Ag-aGllXY'
-//   }
-// };
-
-// fetch('https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc', options)
-//   .then(res => res.json())
-//   .then(res => console.log(res))
-//   .catch(err => console.error(err));
