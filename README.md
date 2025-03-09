@@ -12,7 +12,7 @@
 
 ## <a name="features">🔋 Features</a>
 
-### Features of the Mobile Movie AppProject
+### Features of the Mobile Movie App Project
 
 👉 **Real-time data**: Fetching and displaying real-time movie data
 
